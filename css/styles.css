@@ -135,23 +135,127 @@ margin-left: 10%;
     font-weight: 400;
     line-height: 30px;
     margin-left: 3%;
-    margin-bottom: 1%;
+ 
 }
 .features-right__list{
     display: flex;
     align-items: center;
+    margin-bottom: 2%;
 }
   /* features styles end*/
+
  /* plan styles start*/
-  .plan-box1{
+ .plan{
+    margin-top: 12%;
+ }
+  .title{
     text-align: center;
+    margin-bottom: 8%;
   }
-  .plan-box1>h1{
+  .title>h1{
    font-size: 35px;
    font-weight: 500;
+   line-height: 50px;
   }
-  .plan-box1>p{
+  .title>p{
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
    }
+   .plan-box2__item{
+   padding-top: 5%;
+   text-align: center;
+   border: 2px solid;
+   border-color: rgba(221, 221, 221, 1);
+   border-radius: 10px;
+   width: 330px;
+   height: 660px;
+   }
+   .plan-box2__item >h3{
+    font-size: 18px;
+    font-weight: 500;
+   }
+   .plan-box2__item2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-left: 25%;
+   }
+   .plan-box2__item2>span { 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 7%;
+}
+.plan__btn{
+    font-size: 16px;
+    font-weight: 600!important;
+    width: 177px;
+    height: 45px;
+    border-color: #F53855;
+    color: #F53855;
+    border-radius: 50px;
+    border: 2px solid;
+    background-color: white;
+}
+.plan-box2{
+    display: flex;
+    justify-content: space-between;
+}
+.plan-box2__item3{
+  margin-bottom: -5%;
+}
+.plan-box2__item3>h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+.plan__btn2{
+    background-color: #F53838;
+    color: white;
+    box-shadow:
+ rgba(255, 0, 0, 0.35)
+ 0px 16px 45px;
+}
+.plan-boxes{
+    height: 250px;
+}
+.plan-box2__item1{
+    border-color: #F53838;
+}
+ /* plan styles end*/
+
+  /* network styles start*/
+ .network{
+    margin-top: 10%;
+ }
+ .companies{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .companies-img1{
+    width: 200px;
+    height: 112px;
+ }
+ .companies-img2{
+    width: 156px;
+    height: 50px;
+ }
+ .companies-img3{
+    width: 277px;
+    height: 208px;
+ }
+ .companies-img4{
+    width: 187px;
+    height: 63px;
+ }
+ .companies-img5{
+    width: 171px;
+    height: 51px;
+ }
+ /* network styles end*/
+
+ .feedback{
+    margin-top: 10%;
+ }
