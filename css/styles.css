@@ -84,6 +84,7 @@ box-shadow:
     width: 80%;
     display: flex;
     margin: 12% 0 12% 10%;
+    border-radius: 10px;
     justify-content:space-around;
     box-shadow:rgba(13, 16, 37, 0.1)
  0px 42px 43px;
@@ -232,6 +233,7 @@ margin-left: 10%;
  }
  .network>img{
     margin-top: 8%;
+    width: fit-content;
  }
  .companies{
     margin-top: 3%;
@@ -411,5 +413,7 @@ margin-left: 10%;
     margin-bottom: 40px !important; 
 }
 
-
- 
+/*footer styles end*/
+.sample-slider{
+    width:100%;
+}
