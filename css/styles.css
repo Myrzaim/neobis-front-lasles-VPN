@@ -234,6 +234,7 @@ margin-left: 10%;
  .network>img{
     margin-top: 8%;
     width: fit-content;
+    text-align: center;
  }
  .companies{
     margin-top: 3%;
@@ -273,12 +274,13 @@ margin-left: 10%;
     margin-top: 8%;
  }
  .slider-card{
-    width: 330px;
+    width: 340px;
     height: 180px;
     border: 2px solid #F53838;
-    padding: 3% 3%;
+    padding: 3% 1%;
     border-radius: 10px;
  }
+ 
  .card-user{
     display: flex;
     justify-content: space-between;
@@ -414,6 +416,3 @@ margin-left: 10%;
 }
 
 /*footer styles end*/
-.sample-slider{
-    width:100%;
-}

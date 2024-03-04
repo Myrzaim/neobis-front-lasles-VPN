@@ -8,11 +8,6 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -251,7 +246,7 @@
       <!--Network end-->
 
       <!--feedback start-->
-      <div class="feedback swiper sample-slider">
+      <div class="feedback">
         <div class="title">
           <h1>
             Trusted by Thousands of <br />
@@ -263,8 +258,8 @@
             pleasure when using this crazy feature.
           </p>
         </div>
-        <div class="slider swiper-wrapper">
-          <div class="slider-card swiper-slide">
+        <div class="slider">
+          <div class="slider-card">
             <div class="card-user">
               <div class="card-user_info">
                 <img src="./images/user1.png" alt="user" />
@@ -284,7 +279,7 @@
               LaslesVPN always the best”.
             </p>
           </div>
-          <div class="slider-card swiper-slide">
+          <div class="slider-card">
             <div class="card-user">
               <div class="card-user_info">
                 <img src="./images/user2.png" alt="user" />
@@ -303,7 +298,7 @@
               high speed.”.
             </p>
           </div>
-          <div class="slider-card swiper-slide">
+          <div class="slider-card">
             <div class="card-user">
               <div class="card-user_info">
                 <img src="./images/user3.png" alt="user" />
@@ -323,9 +318,6 @@
             </p>
           </div>
         </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
       </div>
       <!--feedback end-->
 
@@ -420,23 +412,5 @@
       </div>
     </footer>
     <!--footer end-->
-
-    <script>
-      const swiper = new Swiper(".sample-slider", {
-        loop: true,
-        slidesPerView: 2,
-        centeredSlides: true, //added
-        autoplay: {
-          delay: 2000,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
   </body>
 </html>
